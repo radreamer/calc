@@ -1,0 +1,27 @@
+#root {
+  display: center;
+  --bg-color: #2d2d29;
+  --width: 280px;
+}
+
+.wrapper {
+  width: var(--width);
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  color: white;
+  overflow: hidden;
+}
+
+.button-wrapper {
+  display: flex;
+}
+
+.digits-wrapper {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.operator-wrapper {
+  flex: 1;
+}
